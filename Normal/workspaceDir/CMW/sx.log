@@ -1,0 +1,22 @@
+;Log File:	C:\Users\user4.gaio\Desktop\Normal\workspaceDir\CMW\sx.log
+;Start Log:	Tue  26-Nov-2024 16:10:58
+;
+;
+;%SX-W-SOURCE, no source file information
+;  `MEM::40000000'
+;%XTP-I, Start Sub Process (WinAMSLite.dll)
+;%SX-I-XIPC, function "WinAMS_SPMC_Init" is called by process "WinAMS"
+;returned from WinAMS_SPMC_Init
+;%SX-I-XIPC, function "src\Subsystem" is called by process "WinAMS"
+;returned from Subsystem
+;%SX-I-XIPC, function "src\Subsystem" is called by process "WinAMS"
+;returned from Subsystem
+;%SX-I-XIPC, function "src\Subsystem" is called by process "WinAMS"
+;returned from Subsystem
+;%winAMS-I-TEST, WinAMS: テストが終了しました。
+exit
+;%SX-I-PROCESS, process "hsngt0b" was exited with [0]
+;%SX-I-PROCESS, process "hsngt0b" is terminated
+;
+;End   Log:	Tue  26-Nov-2024 16:10:58
+;
