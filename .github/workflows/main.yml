@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Prepend MATLAB to PATH on Windows (PowerShell)
+      - name: Open MATLAB
         if: runner.os == 'Windows'
-        run: echo "D:\Program Files\MATLAB\R2019b\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append     
+        run: echo "D:\Program Files\MATLAB\R2019b\bin"
       - name: Run script
         uses: matlab-actions/run-command@v2
         with:
