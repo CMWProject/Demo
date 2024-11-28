@@ -1,5 +1,5 @@
 name: Sample_Run
-on: [push]
+on: [push,workflow_dispatch]
 jobs:
   my-job:
     name: Run MATLAB Script
@@ -13,4 +13,4 @@ jobs:
       - name: Run script
         uses: matlab-actions/run-command@v2
         with:
-          command: execTestCLI
+          command: myscript[EOF]
