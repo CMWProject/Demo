@@ -1,0 +1,16 @@
+mod,"Subsystem","",2,2,,,,,,,,0
+;$L$MBT,"Z:\ModelVariation\Bus\Virtual\userDir\atgData.csv"
+;$L$MBT,"Z:\ModelVariation\Bus\Virtual\resFolder\MBTOP02\mapList.xml"
+;$L$MBT,"Z:\ModelVariation\Bus\Virtual\resFolder\MBTOP02\mapList_p.xml"
+;$Z$,0,0
+#COMMENT,"In1.signal1","In1.signal2","Out1.signal1","Out1.signal2"
+;$L$,テストデータジェネレータ v1.4.0  : 2021/07/27 17:34,,,,,,,,,,,
+;$L$,limitTime=m60,,,,,,,,,,,
+;$L$,limitFunctionNest=20*,,,,,,,,,,,
+;$L$,limitCondNest=64*,,,,,,,,,,,
+;$L$,limitExpandLoop=28*,,,,,,,,,,,
+;$L$,FuncStart: Subsystem  Z:\Bus\Virtual\userDir\src.c,,,,,,,,,,,
+;$L$,FuncEnd: Subsystem  Z:\Bus\Virtual\userDir\src.c,,,,,,,,,,,
+,1,4,1,4,"NO Check"
+,2,5,2,5,"NO Check"
+,3,6,3,6,"NO Check"
