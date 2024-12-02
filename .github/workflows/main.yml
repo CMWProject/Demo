@@ -1,6 +1,6 @@
 name: Sample_Run
 on: [push]
-jobs:
+jobs: 
   my-job:
     name: Run MATLAB Script
     runs-on: self-hosted
