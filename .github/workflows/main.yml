@@ -14,5 +14,3 @@ jobs:
         uses: matlab-actions/run-command@v2
         with:
           command: MyScript
-
-//モデルに入力するテストデータが存在しませんでした。
