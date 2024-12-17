@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Open MATLAB
         if: runner.os == 'Windows'
-        run: echo "D:\Program Files\MATLAB\R2015aSP1\bin"
+        run: echo "D:\Program Files\MATLAB\R2019b\bin"
       - name: Run script
         uses: matlab-actions/run-command@v2
         with:
